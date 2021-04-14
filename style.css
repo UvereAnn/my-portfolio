@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+body{
+    border: 1px solid gray;
+    margin: 50px 200px 50px 200px;
+}
+
+header{
+    border: 3px solid ;
+    background-color: rgba(25, 107, 175, 0.863);
+    color: white;
+    text-align: center;
+    padding: 50px;  
+}
+
+header h2{
+    font-size: 2.2em;
+}
+
+#header-p{
+    margin: 5px;
+}
+
+main{
+    margin: 25px;
+}
+
+h3{
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 40px;
+    color: rgba(25, 107, 175, 0.863);
+    
+}
+
+p{
+    margin-left: 380px;
+}
+
+h5{
+    margin-left: 380px;
+    margin-top: -20px;
+    font-size: 1.2em;
+}
+
+.second-heading{
+    color: gray;
+    font-weight: bold;
+}
+
+.first-div{
+    margin-bottom: 10px;
+}
+
+.edu{
+    margin-bottom: 10px;
+}
+
+#federal{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.experience{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#skills{
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+#social{
+    margin-top: -20px;
+    
+}
+
+#social-h3{
+    margin-top: 30px;
+    
+}
+
+hr{
+    border: 1px dotted rgba(25, 107, 175, 0.863);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*Mobile Devices*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+    *{
+        padding: 0;
+        margin: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+    }
+
+    body{
+        border: 1px solid gray;
+        margin: 50px;
+        width: 50%;
+    }
+
+    header{
+        border: 3px solid ;
+        font-size: 9px;
+        padding: 5px; 
+        width: 90.3%; 
+    }
+    
+    header h2{
+        font-size: 1.2em;
+    }
+    
+    #header-p{
+        margin: 5px 2px 5px -20px;
+        font-size: 8px;
+        text-align: center;
+    }
+    
+    main{
+        margin: 10px 5px 10px 0px;
+        width: 100%;
+    }
+    
+    h3{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        color: rgba(25, 107, 175, 0.863);
+        font-size: 6px;
+    }
+    
+    p{
+        margin-left: 30px;
+        padding-left: 20px;
+        font-size: 6px;
+        line-height: -5px;
+    }
+    
+    h5{
+        margin-left: 50px;
+        margin-top: -6px;
+        font-size: 6px;
+    }
+    
+    .second-heading{
+        color: gray;
+        font-weight: bold;
+        font-size: 6px;
+    }
+    
+    .first-div{
+        margin-bottom: -35px;
+    }
+    
+    .edu{
+        margin-bottom: 10px;
+    }
+    
+    #federal{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .experience-div{
+        margin-top: -40px;
+    }
+
+    .experience{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .skills-div, .interest-div{
+        margin-top: -35px;
+    }
+
+    #skills{
+        margin-top: -7px;
+        margin-bottom: 10px;
+        width: 70%;
+    }
+    
+    #social-h3{
+        margin-left: 10px;
+        margin-top: -7px;
+    }
+
+    #social{
+        margin-top: -6px;
+        
+    }
+
+    .social-div{
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
+    hr{
+        display: none;
+    }
+}
+    
+/*For Ipads and tablets*/
+@media screen and (min-width: 481px) and (max-width : 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        left: 0;
+        right: 0;
+        max-width: 90%;
+    }
+
+    header{
+        font-size: 12px;
+        padding: 20px; 
+        width: 85%; 
+        text-align: center;
+    }
+    
+    header h2{
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    #header-p{
+        margin: 5px 2px 5px -20px;
+        font-size: 8px;
+        text-align: center;
+    }
+    
+    main{
+        margin: 10px 5px 10px 0px;
+        width: 100%;
+    }
+    
+    h3{
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 20px;
+        color: rgba(25, 107, 175, 0.863);
+        font-size: 10px;
+    }
+    
+    p{
+        margin-left: 60px;
+        padding-left: 20px;
+        font-size: 8px;
+        line-height: -5px;
+    }
+    
+    h5{
+        margin-left: 80px;
+        margin-top: -10px;
+        font-size: 8px;
+    }
+    
+    .second-heading{
+        color: gray;
+        font-weight: bold;
+        font-size: 8px;
+    }
+    
+    .first-div{
+        margin-bottom: -35px;
+        width: 100%;
+    }
+
+    .first-div p{
+        width: 100%;
+    }
+    
+    .edu{
+        margin-bottom: 10px;
+    }
+    
+    #abia{
+        margin-top: -4px;
+    }
+
+    #federal{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .experience-div{
+        margin-top: -40px;
+    }
+
+    .experience{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .skills-div, .interest-div{
+        margin-top: -50px;
+    }
+
+    #skills{
+        margin-top: -7px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    
+    #social-h3{
+        margin-left: 10px;
+        margin-top: -7px;
+    }
+
+    #social{
+        margin-top: -10px;  
+    }
+
+    .social-div{
+        margin-top: -10px;
+        margin-bottom: -10px;
+        font-size: 10px;
+    }
+    
+    hr{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width : 1040px){
+    
+    main{
+        width: 100%;
+    }
+
+    h3{
+        margin-left: 20px;
+    }
+
+    h5, p{
+        margin-left: 150px;
+    }
+}
